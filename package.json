@@ -8,11 +8,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start": "node app.js",
-    "heroku-postbuildnpm start": "ng build --prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "14.15.4",
-    "npm": "6.14.10"
+    "npm": "6.4.1"
   },
   "private": true,
   "dependencies": {
